@@ -1,0 +1,290 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Roboto Condensed", sans-serif;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+.container {
+  width: 750px;
+  margin: 0 auto;
+  border-radius: 10px;
+  overflow: hidden;
+  display: flex;
+}
+
+.card1 {
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 2rem;
+  background-color: #e28525;
+}
+.logo {
+  position: relative;
+}
+img {
+  opacity: 0.5;
+}
+.circlesedan {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #c3711a;
+}
+.car {
+  width: 30px;
+  position: absolute;
+  top: -1px;
+  left: 15px;
+}
+.sedan_text {
+  font-size: 2rem;
+  text-transform: uppercase;
+  color: white;
+  padding-top: 1.5rem;
+}
+.sedanmain_txt {
+  color: #ece7ce;
+}
+.sedan_btn {
+  width: 110px;
+  height: 35px;
+  border-radius: 20px;
+  border: none;
+  color: #e28525;
+  cursor: pointer;
+  margin-top: 2rem;
+  font-weight: 700;
+}
+.card2 {
+  width: 250px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 2rem;
+  background-color: #016972;
+}
+.circlesuv {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #2e5357;
+}
+.suvs_btn {
+  width: 110px;
+  height: 35px;
+  border-radius: 20px;
+  border: none;
+  color: #016972;
+  cursor: pointer;
+  margin-top: 2rem;
+  font-weight: 700;
+}
+.suvsmain_txt {
+  color: #9da1a1;
+}
+.card3 {
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 2rem;
+  background-color: #08443c;
+}
+.circleluxury {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #215d55;
+}
+.luxury_btn {
+  width: 110px;
+  height: 35px;
+  border-radius: 20px;
+  border: none;
+  color: #08443c;
+  cursor: pointer;
+  margin-top: 2rem;
+  font-weight: 700;
+}
+.footer {
+  display: flex;
+  align-items: self-end;
+}
+.footer a {
+  text-decoration: none;
+  color: black;
+}
+.fa-github {
+  font-size: 1.5rem;
+  margin-left: 1rem;
+  /* border: 1px solid; */
+}
+@media (max-width: 479.9px) {
+  .container {
+    width: 250px;
+    height: 640px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+    justify-content: center;
+    border-radius: 1rem;
+    overflow: hidden;
+  }
+
+  .card1 {
+    width: 250px;
+    gap: 10px;
+    font-size: 13px;
+    padding: 1.3rem;
+  }
+  .card2 {
+    gap: 10px;
+    font-size: 13px;
+    padding: 1.3rem;
+  }
+  .card3 {
+    gap: 10px;
+    font-size: 13px;
+    padding: 1.3rem;
+  }
+  .sedan_text {
+    font-size: 1.5rem;
+  }
+  .sedan_btn {
+    margin-top: 0.2rem;
+    width: 100px;
+    height: 25px;
+  }
+  .suvs_btn {
+    margin-top: 0.2rem;
+    width: 100px;
+    height: 25px;
+  }
+  .luxury_btn {
+    margin-top: 0.2rem;
+    width: 100px;
+    height: 25px;
+  }
+  .sedan_text {
+    font-size: 1rem;
+    padding-top: 0.8rem;
+  }
+}
+
+@media (min-width: 480px) and (max-width: 769.9px) {
+  .container {
+    width: 300px;
+    height: 650px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+    justify-content: center;
+    border-radius: 1rem;
+    overflow: hidden;
+    border: 1px solid;
+  }
+  .card1 {
+    width: 300px;
+    /* height: 400px; */
+    gap: 10px;
+    font-size: 13px;
+    padding: 1.5rem;
+  }
+  .card2 {
+    width: 300px;
+    /* height: 400px; */
+    gap: 10px;
+    font-size: 13px;
+    padding: 1.5rem;
+  }
+  .card3 {
+    width: 300px;
+    /* height: 400px; */
+    gap: 10px;
+    font-size: 13px;
+    padding: 1.5rem;
+  }
+
+  .sedan_btn {
+    margin-top: 0.3rem;
+    width: 100px;
+    height: 30px;
+  }
+  .suvs_btn {
+    margin-top: 0.3rem;
+    width: 100px;
+    height: 30px;
+  }
+  .luxury_btn {
+    margin-top: 0.3rem;
+    width: 100px;
+    height: 30px;
+  }
+  .sedan_text {
+    font-size: 1.6rem;
+    padding-top: 0.5rem;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .container {
+    width: auto;
+    height: auto;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    justify-content: center;
+    border-radius: 1rem;
+    border: 1px solid;
+  }
+  .card1 {
+    width: 300px;
+    gap: 10px;
+    font-size: 1.2rem;
+    padding: 2rem;
+    box-sizing: border-box;
+  }
+  .card2 {
+    width: 300px;
+    gap: 10px;
+    font-size: 1.2rem;
+    padding: 2rem;
+    box-sizing: border-box;
+  }
+  .card3 {
+    width: 300px;
+    gap: 10px;
+    font-size: 1.2rem;
+    padding: 2rem;
+    box-sizing: border-box;
+  }
+
+  .sedan_text {
+    font-size: 1.8rem;
+  }
+  .sedan_btn {
+    width: 135px;
+    height: 40px;
+    font-size: 1rem;
+  }
+  .suvs_btn {
+    width: 135px;
+    height: 40px;
+    font-size: 1rem;
+  }
+  .luxury_btn {
+    width: 135px;
+    height: 40px;
+    font-size: 1rem;
+  }
+}
