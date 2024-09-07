@@ -125,7 +125,6 @@ img {
 .fa-github {
   font-size: 1.5rem;
   margin-left: 1rem;
-  /* border: 1px solid; */
 }
 @media (max-width: 479.9px) {
   .container {
@@ -191,25 +190,24 @@ img {
     justify-content: center;
     border-radius: 1rem;
     overflow: hidden;
-    border: 1px solid;
   }
   .card1 {
     width: 300px;
-    /* height: 400px; */
+
     gap: 10px;
     font-size: 13px;
     padding: 1.5rem;
   }
   .card2 {
     width: 300px;
-    /* height: 400px; */
+
     gap: 10px;
     font-size: 13px;
     padding: 1.5rem;
   }
   .card3 {
     width: 300px;
-    /* height: 400px; */
+
     gap: 10px;
     font-size: 13px;
     padding: 1.5rem;
@@ -245,7 +243,14 @@ img {
     overflow: hidden;
     justify-content: center;
     border-radius: 1rem;
-    border: 1px solid;
+    margin: 0.5rem;
+    box-sizing: border-box;
+  }
+  body {
+    padding: 1rem;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
   }
   .card1 {
     width: 300px;
